@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file alias="about">resources/icon/about.png</file>
+        <file alias="addPerson">resources/icon/addPerson.png</file>
+        <file alias="editPerson">resources/icon/editPerson.png</file>
+        <file alias="exit">resources/icon/exit.png</file>
+        <file alias="main">resources/icon/mainIcon.png</file>
+        <file alias="qt">resources/icon/qt.png</file>
+    </qresource>
+</RCC>

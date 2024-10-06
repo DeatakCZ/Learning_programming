@@ -1,0 +1,12 @@
+table,th,tr {
+    border: 1px solid black;;
+}
+
+.white
+{
+    background-color: #FFFFFF;
+}
+.black
+{
+    background-color: #000000;
+}

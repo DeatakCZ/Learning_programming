@@ -1,0 +1,92 @@
+<mxfile host="Electron" modified="2023-05-02T14:08:56.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="kqqoKm4Lnqm8uku0LDxI" version="21.2.1" type="device" pages="2">
+  <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
+    <mxGraphModel dx="271" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E-LcU7iEMVfl8GsEgyk7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.471;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="E-LcU7iEMVfl8GsEgyk7-1" target="E-LcU7iEMVfl8GsEgyk7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E-LcU7iEMVfl8GsEgyk7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="E-LcU7iEMVfl8GsEgyk7-1" target="E-LcU7iEMVfl8GsEgyk7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E-LcU7iEMVfl8GsEgyk7-1" value="Kalkulacka" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="480" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-LcU7iEMVfl8GsEgyk7-2" value="Console" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="480" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-LcU7iEMVfl8GsEgyk7-3" value="Math" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="620" width="70" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LoPcPv_i-6vyf4ZuMu7y" name="Page-2">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-1" value="PC&lt;br&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="276" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-3" value="Proxy server" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="210" width="286" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-4" value="Ubuntu" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-6" value="Server" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="720" y="210" width="330" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-9" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Google Chrome&lt;/b&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="305" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-10" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Q03B6z5tVHDY3i06LcmM-9">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-11" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Nginx&lt;/b&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="310" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-12" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Q03B6z5tVHDY3i06LcmM-11">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-13" value="Ubuntu" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="740" y="250" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-15" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Spolecnost web&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="770" y="370" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-16" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Q03B6z5tVHDY3i06LcmM-15">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-17" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Restaurace web&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="770" y="305" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-18" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Q03B6z5tVHDY3i06LcmM-17">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-19" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="360" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q03B6z5tVHDY3i06LcmM-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="630" y="334.5" as="sourcePoint" />
+            <mxPoint x="770" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

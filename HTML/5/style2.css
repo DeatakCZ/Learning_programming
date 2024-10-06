@@ -1,0 +1,48 @@
+
+
+
+body {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+}
+section {
+    margin-top: 10px ;
+    
+}
+article section p {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6{
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom:  auto;
+   /* width: max-content;*/
+   /*padding: 0px 0px;*/
+   margin: 0px;
+   
+}
+
+
+
+article{
+    background-color: rgb(89, 116, 128);
+    box-shadow: 10px 5px 5px #363030;
+    max-width: 900px;
+    margin: 50px;
+
+}
+
+.avatar {
+    float: left;
+    size: 100px;
+    margin: 10px;
+    border: 2px solid #363030;
+}

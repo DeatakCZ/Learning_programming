@@ -1,0 +1,8 @@
+﻿  Bojovnik.cpp
+  Kostka.cpp
+D:\Code\Arena\Kostka.cpp(18,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Mag.cpp
+D:\Code\Arena\Mag.cpp(5,83): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+  Generating Code...
+  Arena.vcxproj -> D:\Code\Arena\x64\Debug\Arena.exe

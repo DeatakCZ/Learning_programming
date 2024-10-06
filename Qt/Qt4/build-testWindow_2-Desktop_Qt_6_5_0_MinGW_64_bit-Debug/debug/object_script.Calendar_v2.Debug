@@ -1,0 +1,14 @@
+debug/editpersondialog.o
+debug/main.o
+debug/mainwindow.o
+debug/newpersondialog.o
+debug/person.o
+debug/personmodel.o
+debug/resultwidget.o
+debug/qrc_resources.o
+debug/moc_editpersondialog.o
+debug/moc_mainwindow.o
+debug/moc_newpersondialog.o
+debug/moc_person.o
+debug/moc_personmodel.o
+debug/moc_resultwidget.o

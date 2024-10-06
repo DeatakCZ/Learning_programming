@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="example2-3.css" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        document.write(`<table style="width:400px">`);
+        for(let i = 0 ; i < 8 ; i++ )
+        {
+            document.write(`<tr style = "height:45px">`);
+                
+            for(let j=0;j<8;j++)
+            {
+                if((j%2)+(i%2)==1)
+                {
+                    document.write(`<th class="white">`);
+                }
+                else
+                {
+                    document.write(`<th class="black">`);
+                }
+                document.write("</th>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+
+    </script>
+</body>
+</html>

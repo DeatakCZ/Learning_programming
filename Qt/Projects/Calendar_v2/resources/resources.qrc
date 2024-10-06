@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>style/colorPallete.xml</file>
+        <file>file/when.json</file>
+        <file>file/who.json</file>
+        <file>icon/about.png</file>
+        <file>icon/addPerson.png</file>
+        <file>icon/editPerson.png</file>
+        <file>icon/exit.png</file>
+        <file>icon/mainIcon.png</file>
+        <file>icon/qt.png</file>
+    </qresource>
+</RCC>

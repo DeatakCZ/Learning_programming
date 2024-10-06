@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Priklad 3-1</title>
+</head>
+<body>
+    <script>
+        let Pole = [];
+        for (let i = 0 ; i < 10 ; i++ )
+        {
+            Pole[i] = 10-i;
+        }
+
+        document.write(`<ul>`);
+        for(i=0;i<10;i++)
+        {
+            document.write(`<li>`, Pole[i], `</li>` );
+        }
+        document.write(`</ul>`);
+
+    </script>
+</body>
+</html>

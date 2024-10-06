@@ -1,0 +1,14 @@
+﻿  Clovek.cpp
+D:\Code\tezky ukol\Clovek.cpp(35,31): error C2027: use of undefined type 'Muz'
+D:\Code\tezky ukol\Clovek.h(9): message : see declaration of 'Muz'
+D:\Code\tezky ukol\Clovek.cpp(35,48): error C2027: use of undefined type 'Muz'
+D:\Code\tezky ukol\Clovek.h(9): message : see declaration of 'Muz'
+D:\Code\tezky ukol\Clovek.cpp(38,32): error C2027: use of undefined type 'Zena'
+D:\Code\tezky ukol\Clovek.h(10): message : see declaration of 'Zena'
+D:\Code\tezky ukol\Clovek.cpp(38,49): error C2027: use of undefined type 'Zena'
+D:\Code\tezky ukol\Clovek.h(10): message : see declaration of 'Zena'
+  Muz.cpp
+  Zena.cpp
+  main.cpp
+D:\Code\tezky ukol\main.cpp(31,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...

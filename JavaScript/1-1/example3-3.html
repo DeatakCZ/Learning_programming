@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>priklad 3-3</title>
+</head>
+<body>
+    
+<script>
+    let ovoce = ["pomeranc","broskev","jahoda","meloun"];
+    let zelenina = ["okurka", "brokolice", "rajce", "paprika"];
+    let nalezeno = false;
+    let vstup = prompt("Zadej nazev libovolne zeleniny:");
+
+
+        for(let i = 0; i<ovoce.length ; i++)
+        {   
+            if(vstup == ovoce[i])
+            {
+                document.write("NASEL JSI OVOCEEEE!!!!");
+                nalezeno=1;
+            }
+        }
+
+        for(let i = 0; i<zelenina.length ; i++)
+        {
+            if(vstup == zelenina[i])
+            {
+                document.write("NASEL JSI ZELENINUUU!!!");
+                nalezeno=1;
+            }
+        }
+
+        if(!nalezeno)
+            document.write("Tohle neznam, radsi bych to nejed.");
+
+
+</script>
+
+
+</body>
+</html>

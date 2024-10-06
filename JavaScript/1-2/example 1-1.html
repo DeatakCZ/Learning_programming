@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function kontrolaDelky(text, delka)
+        {
+            if(text.length > delka)
+            text = text.substr(0, delka-3)+"...";
+            return text;
+        }
+
+        let VstupniText = prompt("Zadej text:");
+        let DelkaTextu = prompt("Zadej delku:");
+
+       // let OpravenyText = kontrolaDelky(VstupniText,DelkaTextu);
+
+        document.write( "Původní text:", VstupniText, "<br/>" );
+        document.write( "Zkrácený text:", /*OpravenyText*/kontrolaDelky(VstupniText,DelkaTextu), "<br/>");
+
+    </script>
+</body>
+</html>

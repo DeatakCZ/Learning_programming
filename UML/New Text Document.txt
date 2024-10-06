@@ -1,0 +1,494 @@
+Vytvořte Use case specifikaci pro use case
+UC4 Provést výpočet z diagramu pro jednoduchou
+kalkulačku. Zvažte podmínky spuštění,
+dokončení a jaké chyby mohou nastat.
+
+Specifikace by měla obsahovat: 
+
+
+	krátký popis,
+
+	aktéry, kteří se účastní use case
+	UC4 Provést výpočet,
+
+	podmínky pro spuštění a dokončení,
+
+	základní a alternativní tok.
+
+
+Implementujte postup pro případ zadání nekorektního čísla
+od uživatele.
+
+UC4 Provest vypocet
+
+Krátký popis 
+Use case provede matematickou operaci.
+
+Aktéři 
+Uzivatel
+
+Podmínky pro spuštění 
+System je pripraven.
+
+Základní tok 
+1} Uzivatel zada 1. cislo
+2} Uzivatel zada 2. cislo
+3} Uzivatel zada matematickou operaci.
+4} System vypise vysledek.
+
+Alternativní tok 1 
+1.1} Uzivatel nezada cislo. system pokracuje od zacatku tohoto kroku.
+2.1} -||-
+Alternativní tok 2
+3.1} Uzivatel zada deleni kdyz je druhe cislo 0. system se vrati do 2. bodu.
+
+
+Podmínky pro dokončení
+System provede kalkulaci.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Středně pokročilý příklad 
+
+Vytvořte Use case specifikaci pro jednotlivé případy
+užití z diagramu pro aplikaci Měnová kalkulačka.
+
+Specifikace by měla obsahovat:
+
+
+	krátký popis každého use case,
+
+	aktéry, kteří se účastní daného případu
+	užití,
+
+	podmínky pro spuštění (může jít například o
+	potřebu internetového připojení),
+
+	základní tok,
+
+	alternativní tok pro případ chyby, či zadání
+	neplatného vstupu.
+
+
+
+
+
+Zadat castku
+Krátký popis 
+Uzivatel zada hodnotu k prevodu.
+
+Aktéři 
+Uzivatel.
+
+Podmínky pro spuštění 
+Je vybrany kurz.
+
+Základní tok 
+1}uzivatel zada hodnotu.
+2}System preda hodnotu k prepoctu.
+
+Alternativní tok 1 
+1.1}Uzivatel zada neplatnou hodnotu, Vratime se domu.
+
+Podmínky pro dokončení
+System predal hodnotu.
+
+
+
+
+
+Nastavit puvodni menu
+Krátký popis 
+Nastavi se mena zadane hodnoty.
+
+Aktéři 
+Uzivatel.
+
+Podmínky pro spuštění 
+System je doma.
+
+Základní tok 
+1}Uzivatel zada kod meny.
+
+Alternativní tok 1 
+1.1}Uzivatel zada neplatny kod meny a system se vrati domu.
+
+Podmínky pro dokončení
+Bude nacten kod puvodni meny.
+
+
+
+
+Nastavit cilovou menu
+Krátký popis 
+Nastavi se mena na kterou se bude prevadet zadana hodnota.
+
+Aktéři 
+Uzivatel.
+
+Podmínky pro spuštění 
+System je doma.
+
+Základní tok 
+1}Uzivatel zada kod meny.
+2}System spusti funkci stahovani kurzu.
+
+Alternativní tok 1 
+1.1}Uzivatel zada neplatny kod meny a system se vrati domu.
+
+Podmínky pro dokončení
+Bude nacten kod nove meny.
+
+
+
+
+
+
+Stahnout kurz
+Krátký popis 
+Upravi se kurz podle puvodni a cilove meny.
+
+Aktéři 
+System.
+
+Podmínky pro spuštění 
+Je zadany puvodni i cilova mena.
+System je pripojen l internetu.
+
+Základní tok 
+1}System se pripoji na burzu.
+2}Vyhleda silu prvni mena podle kodu.
+3}Vyhleda silu prvni mena podle kodu.
+4}Vypocita se kurz podle zjistenych dat.
+5}Upravi se kurz prepoctu.
+
+Alternativní tok 1 
+1.1}Nepodarilo se pripojit na burzu. Upozornim, zopakuji pokus a pote se vratim domu.
+
+Alternativní tok 2
+2.1}Nepodarilo se vyhledat menu podle zadaneho kodu, upozornime uzivatele a vratime se domu.
+3.1} -||-
+
+Podmínky pro dokončení
+Prepsal se novy kurz prevodu.
+
+
+
+Prepocet
+Krátký popis 
+Prepocita hodnotu podle daneho kurzu.
+
+Aktéři 
+System.
+
+Podmínky pro spuštění 
+Validni kurz a hodnota.
+
+Základní tok 
+1}System dostane hodnotu od jine funkce.
+2}System prepocita hodnotu podle kurzu.
+3}System vypise prepoctenou hodnotu.
+
+Alternativní tok 1 
+1.1}Hodnota neni validni, upozornime uzivatele a vratime se domu.
+
+Alternativní tok 2
+2.2}Neni ulozen validni kurz. Upozornime a vratime se domu.
+
+Podmínky pro dokončení
+System vypise hodnotu.
+
+
+
+
+
+
+Pokročilý příklad 
+
+Vytvořte Use case specifikaci pro jednotlivé případy
+užití z diagramu pro webovou aplikaci sloužící k tipování
+výsledků zápasů.
+
+Specifikace by měla obsahovat:
+
+
+	krátký popis každého use case,
+
+	aktéry, kteří se účastní daného případu
+	užití,
+
+	podmínky pro spuštění,
+
+	základní tok,
+
+	alternativní tok v případě chyby, či zadání
+	neplatného vstupu.
+
+
+
+
+
+
+
+Registrovat
+Krátký popis 
+Vytvorit uzivateli trvaly ucet.
+
+Aktéři 
+Uzivatel.
+System.
+
+Podmínky pro spuštění 
+Internetove pripojeni.
+
+Základní tok 
+1}Uzivatel zada sve udaje do systemu.
+1.1}Tyto udaje by meli byt: Jmeno, heslo, email, datum narozeni, bydliste, ...
+2}System vytvori novy zapis v databazi s uzivatelskymi udaji.
+
+Alternativní tok 1 
+1.1}Uzivatel zada neplatne udaje a bude vyzvan k opakovani zadani.
+
+Podmínky pro dokončení
+Je vytvoren zapis v databazi.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pridat komentar
+Krátký popis 
+Ulozit komentar ke clanku.
+
+Aktéři 
+Uzivatel.
+
+Podmínky pro spuštění 
+Uzivatel musi byt registrovany.
+Internetove pripojeni.
+
+Základní tok 
+1}Uzivatel zada telo komentare pod clankem.
+2}Komentar se ulozi do databaze.
+
+Alternativní tok 1
+1.1} Komentar bude obsahovat nevalidni znaky. Uzivatel bude upozornen.
+
+Podmínky pro dokončení
+Komentar ulozen v systemu.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tipnout si na zapas
+Krátký popis 
+Ulozit tip k vybranemu zapasu.
+
+Aktéři 
+Uzivatel.
+
+Podmínky pro spuštění 
+Uzivatel musi byt registrovany.
+Musi existovat validni zapas.
+
+Základní tok 
+1}Uzivatel si vybere ke kteremu zapasu bude vytvaret tip.
+2}Uzivatel zada svou vyslednou kombinaci.
+3}Kombinace se ulozi do systemu.
+
+Alternativní tok 1 
+2.1}Kombinace nebude platna, a uzivatel bdue vyzvan k oprave.
+
+
+Podmínky pro dokončení
+Bude zapis v databazi.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Upravit obsah
+Krátký popis 
+Upravit obsah stranky.
+
+Aktéři 
+Uzivatel.
+
+Podmínky pro spuštění 
+Internetove pripojeni.
+Administratorske povereni.
+
+Základní tok 
+1}Uzivatel vybere ktery obsah chce upravovat.
+2}Uzivatel zada novy obsah.
+3}Novy obsah se ulozi do databaze.
+
+Alternativní tok 1 
+2.1}Obsah nebude validni a uzivatel bude upozornen jak, a vyzvan k oprave.
+
+Podmínky pro dokončení
+Novy obsah bude ulozen.
+
+
+
+
+
+
+
+
+
+
+
+
+Vytvorit rozpis zapasu
+Krátký popis 
+Vytvorit seznam zapasu .
+
+Aktéři 
+Uzivatel.
+
+Podmínky pro spuštění 
+Administratorske opravneni.
+
+Základní tok 
+1}Uzivatel zada pocet zapasu.
+2}Uzivatel zada data zapasu.
+3}Uzivatel bude postupne zadavat ucastniky zapasu.
+
+Alternativní tok 1 
+1.1}Uzivatel zada negativni pocet zapasu a bude vyzvan k oprave.
+
+Alternativní tok 2
+2.1}Data zapasu budou v minulosti a bude vyzvan k oprave.
+
+Alternativní tok 3
+3.1} Bude zadan nevalidni tym a uzivatel bude vyzvan k oprave.
+
+Podmínky pro dokončení
+Bude ulozen kompletni seznam zapasu.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pridelit admin opravneni
+Krátký popis 
+Pridelit administratorske privilegia.
+
+Aktéři 
+Uzivatel A.
+Uzivatel B.
+
+Podmínky pro spuštění 
+Adminitratorske opravneni uzivatele A.
+Registrace uzivatele B.
+
+Základní tok 
+1}Uzivatel A vybere uzivatele B pomoci emailu.
+2}V systemu se prepise udaj o hodnosti clena B.
+
+Podmínky pro dokončení
+V databazi bude provedena zmena.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Poslat rozpis zapasu
+Krátký popis 
+Rozeslat rozpis zapasu vsem clenum.
+
+Aktéři 
+System.
+
+Podmínky pro spuštění 
+Internetove pripojeni.
+Novy seznam zapasu.
+
+Základní tok 
+1}System prijme nove zaany seznam zapasu od administratora.
+2}System se pripoji na emailovou branu.
+3}Seznam se rozesle vsem clenum novy seznam zapasum, na emailove adresy uvedene pri registraci.
+
+Alternativní tok 1 
+2.1}Systemu se nepodari pripojit na emailovou branu a upozorni chybovou hlaskou administratora.
+
+Alternativní tok 2
+3.1) Email nekterych clenu neni validni a odesle se report adminovy.
+
+Podmínky pro dokončení
+Odchozi hromadny email.

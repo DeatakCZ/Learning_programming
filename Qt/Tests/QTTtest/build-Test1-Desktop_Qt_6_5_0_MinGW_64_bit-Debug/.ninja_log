@@ -1,0 +1,9 @@
+# ninja log v5
+2	3715	7164851457830312	Test1_autogen/timestamp	1624b0517fee7cb5
+2	3715	7164851457830312	Test1_autogen/mocs_compilation.cpp	1624b0517fee7cb5
+2	3715	7164851457830312	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/QTTtest/build-Test1-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Test1_autogen/timestamp	1624b0517fee7cb5
+2	3715	7164851457830312	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/QTTtest/build-Test1-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/Test1_autogen/mocs_compilation.cpp	1624b0517fee7cb5
+3722	6551	7164851487820103	CMakeFiles/Test1.dir/mainwindow.cpp.obj	52d79c1363a5bada
+3719	6575	7164851488248944	CMakeFiles/Test1.dir/main.cpp.obj	2d09bd181e7ab634
+3716	6622	7164851488847344	CMakeFiles/Test1.dir/Test1_autogen/mocs_compilation.cpp.obj	61350c13508e695c
+6623	7503	7164851497603935	Test1.exe	feb0ca2c0ad960d9

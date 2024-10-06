@@ -1,0 +1,26 @@
+[
+    {
+        "day": 22,
+        "id": 2,
+        "month": 11,
+        "name": "Tomik",
+        "surname": "hladky",
+        "year": 1952
+    },
+    {
+        "day": 20,
+        "id": 3,
+        "month": 11,
+        "name": "Kamca",
+        "surname": "Studena",
+        "year": 2022
+    },
+    {
+        "day": 18,
+        "id": 4,
+        "month": 11,
+        "name": "1",
+        "surname": "2",
+        "year": 2020
+    }
+]

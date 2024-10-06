@@ -1,0 +1,34 @@
+<!--  
+
+Naprogramujte skript, který usnadní zobrazování di­alogů.
+Skript načte elementy, které mají atribut data-hovorici.
+V nich vytvoří element <span> s textem, který bude obsahovat hodnotu toho atributu a textový řetězec " řekl: ".
+Tento element se musí vložit na začátek obsahu elementu.
+Text by měl být ideálně v uvozovkách. Ukažme si vše na příkladu.
+
+Vstupní HTML kód:
+
+<p data-hovorici="Marek">Ahoj, jak se máš?</p>
+
+Výstupní DOM (HTML):
+
+<p data-hovorici="Marek"><span>Marek řekl: </span>"Ahoj, jak se máš?"</p>
+
+
+-->        
+
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/example1-1.js" ></script>
+    <title>Document</title>
+</head>
+<body>
+    <p data-hovorici="Marek">Ahoj, jak se máš?</p>
+    <p data-hovorici="Petr">Dobre jak ty?</p>
+    <p data-hovorici="Marek">Nic moc, je furt zima</p>
+    <p data-hovorici="Petr">Musis si zatopit</p>
+    <p data-hovorici="Marek">Kdyz ja se bojim ze si zapalim dum</p>
+</body>
+</html>

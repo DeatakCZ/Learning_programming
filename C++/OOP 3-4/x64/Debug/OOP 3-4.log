@@ -1,0 +1,5 @@
+﻿  Generator.cpp
+D:\Code\OOP 3-4\Generator.cpp(87,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  main.cpp
+  Generating Code...
+  OOP 3-4.vcxproj -> D:\Code\OOP 3-4\x64\Debug\OOP 3-4.exe

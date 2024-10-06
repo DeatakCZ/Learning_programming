@@ -1,0 +1,26 @@
+# ninja log v5
+1	293	7048030844982170	untitled_autogen/timestamp	6375c4c0685c3fea
+1	293	7048030844982170	untitled_autogen/mocs_compilation.cpp	6375c4c0685c3fea
+1	293	7048030844982170	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/qt1/build-untitled-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/untitled_autogen/timestamp	6375c4c0685c3fea
+1	293	7048030844982170	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/qt1/build-untitled-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/untitled_autogen/mocs_compilation.cpp	6375c4c0685c3fea
+294	430	7048030847045845	CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj	4f26368ec5708b70
+299	2289	7048030865638667	CMakeFiles/untitled.dir/main.cpp.obj	24edc9c468806c25
+2292	2602	7048030868726097	untitled.exe	e5a9abdbb61fb82a
+10	152	7048031672505671	untitled_autogen/timestamp	6375c4c0685c3fea
+10	152	7048031672505671	untitled_autogen/mocs_compilation.cpp	6375c4c0685c3fea
+10	152	7048031672505671	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/qt1/build-untitled-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/untitled_autogen/timestamp	6375c4c0685c3fea
+10	152	7048031672505671	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/qt1/build-untitled-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/untitled_autogen/mocs_compilation.cpp	6375c4c0685c3fea
+153	1732	7048031688318932	CMakeFiles/untitled.dir/main.cpp.obj	24edc9c468806c25
+1733	1837	7048031689326319	untitled.exe	e5a9abdbb61fb82a
+10	139	7048031897332346	untitled_autogen/timestamp	6375c4c0685c3fea
+10	139	7048031897332346	untitled_autogen/mocs_compilation.cpp	6375c4c0685c3fea
+10	139	7048031897332346	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/qt1/build-untitled-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/untitled_autogen/timestamp	6375c4c0685c3fea
+10	139	7048031897332346	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/qt1/build-untitled-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/untitled_autogen/mocs_compilation.cpp	6375c4c0685c3fea
+141	1700	7048031912947628	CMakeFiles/untitled.dir/main.cpp.obj	24edc9c468806c25
+1701	1802	7048031913934941	untitled.exe	e5a9abdbb61fb82a
+4	139	7048032448025693	untitled_autogen/timestamp	6375c4c0685c3fea
+4	139	7048032448025693	untitled_autogen/mocs_compilation.cpp	6375c4c0685c3fea
+4	139	7048032448025693	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/qt1/build-untitled-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/untitled_autogen/timestamp	6375c4c0685c3fea
+4	139	7048032448025693	C:/Users/PanTalir/Documents/GitHub/ITNETWORK/Qt/qt1/build-untitled-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/untitled_autogen/mocs_compilation.cpp	6375c4c0685c3fea
+140	1826	7048032464900830	CMakeFiles/untitled.dir/main.cpp.obj	24edc9c468806c25
+1826	2008	7048032466676079	untitled.exe	e5a9abdbb61fb82a

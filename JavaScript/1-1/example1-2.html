@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        let smajlik = prompt("Zadej smajlika zmrde: ");
+        let nose;
+        if( smajlik[1]=="-")
+        {
+            nose=2;
+        }
+        else
+        {
+            nose=1;
+        }
+        smajlik = smajlik.trim();
+
+        document.write("Tvuj smajlik je ");
+        switch (smajlik[nose])
+        {
+            case ")":
+                document.write("Radostny");
+            break;
+            case "(":
+                document.write("Zamraceny");
+            break;
+            case "*":
+                document.write("Zamilovany");
+            break;
+            case "P":
+                document.write("Otraveny");
+            break;
+            default:
+                document.write("nerozpoznany");
+            break;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+﻿  Clovek.cpp
+  Generator.cpp
+D:\Code\OOP 3-4\Generator.cpp(94,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  main.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 89 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  OOP 3-4.vcxproj -> D:\Code\OOP 3-4\Release\OOP 3-4.exe

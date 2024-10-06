@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(Fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(Fonts/Poppins-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    background-color: #BFFA76;
+    min-width: 960px;
+    margin: 0 auto;
+    font-family: "Poppins";
+}
+
+body > header > header {
+    background: #2B9322;
+    color: #BFFA76;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+ 
+    
+} 
+
+#logo {
+    height: auto;
+    padding: 5px 5px;
+}
+
+body > header > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    background: #BFFA76;
+
+    padding: 15px 0px;
+    margin: 0;
+
+}
+
+body > header > ul > li > a {
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+body > header > ul > li
+{
+    background-color: #02cf24;
+    border-radius: 50%;
+    min-width: 100px;
+    min-height: 100px;
+
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+body > header > ul > li :hover
+{
+    background-color: #2B9322;
+    border-radius: 50%;
+    font-size: 1.5em;
+    min-width: 100px;
+    min-height: 100px;
+    color: #BFFA76;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+body > header > ul .aktivni {
+    text-decoration: underline;
+    color: #fc0901f8;
+    font-size: 1.2em;
+}
+
+
+article {
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    
+}
+
+article h1 {
+    background-color: #2B9322;
+    width: 100%-5px;
+    color: #BFFA76;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+article h2 {
+    color: #02cf24;
+    padding-left: 15px;
+}
+
+article p {
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #2B9322;
+    width: 100%-5px;
+    color: #BFFA76;
+    border-radius: 10px;
+    text-align: center;
+}

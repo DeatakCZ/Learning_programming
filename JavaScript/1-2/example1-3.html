@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function NajdiNejvetsi(poleCisel)
+        {
+            poleCisel.sort( function(a,b){return a-b;} );
+            VypisPole(poleCisel);
+            document.write("<br/>");
+            poleCisel.reverse();
+            VypisPole(poleCisel);
+            document.write("<br/>");
+            return poleCisel[0]+poleCisel[1]+poleCisel[2];
+        }
+        function VypisPole(poleCisel)
+        {
+            document.write("<ul>");
+                for(let i = 0;i<poleCisel.length; i++)
+                {
+                    document.write("<li>", poleCisel[i], "</li>");
+                }
+            document.write("</ul>");
+        }
+
+        let Pole = [13,1,29,12,13,555,666,5,33,11];
+
+        VypisPole(Pole);
+        
+        document.write("Soucet 3 nejvetsich cisel je: ", NajdiNejvetsi(Pole));
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

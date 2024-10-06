@@ -1,0 +1,6 @@
+﻿  RandomTesting.cpp
+C:\Users\PanTalir\Documents\GitHub\ITNETWORK\C++\Arduino\Testing\RandomTesting\RandomTesting.cpp(10,19): error C2144: syntax error: 'int' should be preceded by ')'
+C:\Users\PanTalir\Documents\GitHub\ITNETWORK\C++\Arduino\Testing\RandomTesting\RandomTesting.cpp(10,15): error C3861: 'map': identifier not found
+C:\Users\PanTalir\Documents\GitHub\ITNETWORK\C++\Arduino\Testing\RandomTesting\RandomTesting.cpp(10,19): error C2144: syntax error: 'int' should be preceded by ';'
+C:\Users\PanTalir\Documents\GitHub\ITNETWORK\C++\Arduino\Testing\RandomTesting\RandomTesting.cpp(10,22): error C2059: syntax error: ','
+C:\Users\PanTalir\Documents\GitHub\ITNETWORK\C++\Arduino\Testing\RandomTesting\RandomTesting.cpp(10,35): error C2059: syntax error: ')'

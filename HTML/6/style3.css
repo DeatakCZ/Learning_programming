@@ -1,0 +1,25 @@
+
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: left;
+    background: url(Pics/lokomotiva.png) no-repeat;
+    padding: 0px;
+    margin: 0;
+    padding-left: 100px;
+}
+
+li {
+    display: flex;
+    min-width: 80px;
+    min-height: 70px;
+    text-decoration: none;
+    background: url(Pics/vagon.png) no-repeat;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-left: 0px;
+    color: white;
+}

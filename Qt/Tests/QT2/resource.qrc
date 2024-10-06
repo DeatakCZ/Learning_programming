@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/img">
+        <file alias="shrimpImage">Shrimp.png</file>
+        <file alias="mainIcon">qt.png</file>
+    </qresource>
+</RCC>

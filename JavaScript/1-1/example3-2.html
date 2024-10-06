@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Priklad 3-2</title>
+</head>
+<body>
+    
+    <script>
+        let Ceny = [3500,2800,12080,1920,4320];
+        let soucet = 0;
+        for(let i = 0; i< Ceny.length ; i++)
+         {
+            soucet = soucet + Ceny[i];
+         }
+         let prumer = soucet / Ceny.length;
+
+
+         document.write("Třetí produkt se od průměrné ceny odlišuje o ", Math.abs(Ceny[2]-prumer));
+    </script>
+</body>
+</html>

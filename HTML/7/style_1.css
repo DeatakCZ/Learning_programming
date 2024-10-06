@@ -1,0 +1,34 @@
+h1 {
+    color: orangered;
+}
+ body {
+    text-align: center;
+
+ }
+
+ img {
+
+
+padding: 0px;
+margin: 0px;
+position: absolute;
+
+
+
+}
+
+ .Leva {
+    left: 0%;
+ }
+
+ .Prava {
+    right: 0%;
+ }
+
+ .Horni {
+    top: 0%;
+ }
+
+ .Dolni {
+    bottom: 0%;
+ }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let d = new Date();
+        let den = d.getDate();
+        let mesic = "Furt Zima";
+        let rok = d.getFullYear();
+
+        switch(d.getMonth())
+        {
+            case 0:
+            mesic = "Leden";
+            break;
+            case 1:
+            mesic = "Unor";
+            break;
+            case 2:
+            mesic = "Brezen";
+            break;
+            case 3:
+            mesic = "Duber";
+            break;
+            case 4:
+            mesic = "Kveten";
+            break;
+            case 5:
+            mesic = "Cerven";
+            break;
+            case 6:
+            mesic = "Cervenec";
+            break;
+            case 7:
+            mesic = "Srpen";
+            break;
+            case 8:
+            mesic = "Zari";
+            break;
+            case 9:
+            mesic = "Rijen";
+            break;
+            case 10:
+            mesic = "Listopad";
+            break;
+            case 11:
+            mesic = "Prosinec";
+            break;
+        }
+        
+        
+        document.write("Dnes je: ", den, ". ", mesic, " ", rok );
+    </script>
+</body>
+</html>

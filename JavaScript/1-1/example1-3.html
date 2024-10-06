@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+let a = prompt( "Zadejte postupne koeficienty kvadraticke rovnice Ax^2 + Bx + C = 0, ted koeficient A:" );
+let b = prompt( "Zadejte postupne koeficienty kvadraticke rovnice Ax^2 + Bx + C = 0, ted koeficient B:" );
+let c = prompt( "Zadejte postupne koeficienty kvadraticke rovnice Ax^2 + Bx + C = 0, ted koeficient C:" );
+
+let D = (b*b)-(4*a*c);
+
+if(D>0)
+{
+    document.write("Rovnice ma 2 ruzne koreny: </br>x1= ", ((-b+(Math.sqrt(D)))/(2*a)), "</br>x2= ", ((-b-(Math.sqrt(D)))/(2*a)));
+}
+else if(D == 0)
+{
+    document.write("Rovnice ma 1 koren: </br>x= ", (-b/(2*a)));
+}
+else if(D < 0)
+{
+    document.write("Rovnice ma komplexni koreny");
+}
+else 
+{
+    document.write("Rovnice nema reseni/spatne zadani");
+}
+
+    </script>
+</body>
+</html>

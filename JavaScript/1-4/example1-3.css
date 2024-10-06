@@ -1,0 +1,23 @@
+table
+{
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+table td
+{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+thead
+{
+    border: 1px solid black;
+}
+
+table button 
+{
+    color: blue;
+    padding: 7px 7px;
+
+}

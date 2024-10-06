@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/img">
+        <file alias="mainIcon">img/qt-calc-icon.png</file>
+    </qresource>
+</RCC>

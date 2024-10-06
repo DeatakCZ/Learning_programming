@@ -1,0 +1,7 @@
+body > img[data-podzim] {
+    position:absolute;
+}
+
+body {
+    overflow:hidden;
+}

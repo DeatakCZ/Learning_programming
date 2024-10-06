@@ -1,0 +1,14 @@
+release/editpersondialog.o
+release/main.o
+release/mainwindow.o
+release/newpersondialog.o
+release/person.o
+release/personmodel.o
+release/resultwidget.o
+release/qrc_resources.o
+release/moc_editpersondialog.o
+release/moc_mainwindow.o
+release/moc_newpersondialog.o
+release/moc_person.o
+release/moc_personmodel.o
+release/moc_resultwidget.o
